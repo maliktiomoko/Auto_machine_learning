@@ -7,7 +7,7 @@ data_converter.py performs various data conversions for the ChaLearn AutoML chal
 
 data_io performs various input/output opeartions for the ChaLearn AutoML challenge (No modification from the initial baseline)
 
-data_manager.py various input/output opeartions for the ChaLearn AutoML challenge (No modification from the initial baseline)
+data_manager.py various input/output opeartions for the ChaLearn AutoML challenge (Some slight modification for the preprocessing of the data)
 
 models.py Rough sketch of a class that "solves" the AutoML problem. We illustrate various type of data that will be encountered in the challenge can be handled.
          Also, we make sure that the model regularly outputs predictions on validation and test data, such that, if the execution of the program is interrupted (timeout)
